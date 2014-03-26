@@ -89,3 +89,7 @@ strong {
 p, form {
   margin-bottom: 1em;
 }
+
+small {
+  font-size: 80%;
+}
