@@ -7,7 +7,7 @@ body {
   line-height: 1.4;
 }
 
-#cover {
+#background {
   position: absolute;
   top: 0;
   right: 0;
@@ -20,13 +20,23 @@ body {
           background-size: cover;
 }
 
-#cover-inner {
+#background div {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.4);
+}
+
+#cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: scroll;
+  z-index: 1;
 }
 
 #main {
