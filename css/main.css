@@ -40,7 +40,7 @@ body {
 }
 
 #main {
-  max-width: 750px;
+/*  max-width: 750px;*/
 }
 
 #header {
@@ -48,20 +48,48 @@ body {
   margin-bottom: 50px;
 }
 
-#info {
-  margin: 20px 10px;
+#header img {
+  margin: 0 auto;
+}
+
+#info, .section {
+  margin: 20px 0;
   padding: 20px;
   background-color: rgb(239, 200, 93);
   border-radius: 15px;
 }
 
-#info-inner {
+#info-inner, .section-inner {
   background-color: rgb(245, 239, 218);
-  padding: 20px;
   border-radius: 15px;
 }
 
-#info h2 {
+#info-inner {
+  padding: 20px;
+}
+
+#info td {
+  padding: 5px;
+  width: 20%;
+}
+
+#info table p {
+  font-size: 14px;
+}
+
+#info table h2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.date {
+  text-transform: uppercase;
+  font: 16px "Century Gothic", "Duke Regular", Helvetica, Arial, sans-serif;
+  color: rgb(203, 108, 140);
+}
+
+.title {
   text-align: center;
   text-transform: uppercase;
   font: 72px "Duke Regular", Helvetica, Arial, sans-serif;
